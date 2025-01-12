@@ -22,6 +22,10 @@
     background-color: grey;
     color: white;
 }
+.donate-btn button:hover{
+    background-color: grey;
+    color: white;
+}
 /* navbar */
 .navbar{
     display: flex;
@@ -310,4 +314,115 @@ overflow: hidden
 border-radius: 16px;
 margin-bottom: 24px;
 overflow: hidden
+}
+.taka-dad{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.donate-dad{
+    text-align: center;
+    padding: 0 88px;
+    margin: 0 160px 80px 160px;
+}
+.t100 button{
+    width: 220px;
+height: 108px;
+font-size: 35px;
+font-weight: 700;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.t200 button{
+    width: 220px;
+height: 108px;
+font-size: 35px;
+font-weight: 700;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.t500 button{
+    width: 220px;
+height: 108px;
+font-size: 35px;
+font-weight: 700;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.t1000 button{
+    width: 220px;
+height: 108px;
+font-size: 35px;
+font-weight: 700;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.taka-dad{
+    justify-content: center;
+}
+.donate-heading{
+    margin-bottom: 24px;
+    font-size: 40px;
+font-weight: 700;
+color: rgb(14, 14, 14);
+}
+.satelite-content{
+    color: rgba(14, 14, 14, 0.7);
+}
+.satelite-time-peradox{
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate-content{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+    font-size: 16px;
+font-weight: 400;
+}
+.form input{
+    width: 900px;
+height: 54px;
+margin-left: 220px;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 252, 252);
+}
+.donate-dad{
+    border: 1px solid white;
+    height: 300px;
+}
+.taka-dad button:hover{
+    background: rgb(198, 228, 214);
+}
+.input{
+    margin-top: 32px;
+}
+.donate-btn{
+    text-align: center;
+}
+.donate-btn button{
+    margin-top: 32px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+width: 141px;
+height: 46px;
+color: white;
+}
+.donate{
+    margin-bottom: 80px;
 }
