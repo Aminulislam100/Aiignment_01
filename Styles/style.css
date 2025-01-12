@@ -18,7 +18,10 @@
     background-color: grey;
     color: white;
 }
-
+.satelite-btn button:hover{
+    background-color: grey;
+    color: white;
+}
 /* navbar */
 .navbar{
     display: flex;
@@ -177,4 +180,134 @@ font-weight: 700;
 .vision .vision-dad .vision4 .vision2-1-heading h1{
     font-size: 18px;
 font-weight: 700;
+}
+/* chalenge1 */
+.chalange1 .chalange{
+    margin-top: 32px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 252, 252);
+background-image: url(../B11A1--assignment-1-main/assets/quote-bg.png);
+background-position: 10px 12px;
+background-repeat: no-repeat;
+margin-left: 160px;
+margin-right: 160px;
+padding: 28px 10px;
+}
+.chalange1 .chalange .chalenge-content{
+    margin-bottom: 12px;
+}
+.chalange1 .chalange .chalenge-foot1 h1{
+    font-size: 20px;
+font-weight: 600;
+border: 1px solid rgb(255, 252, 252);
+height: 2px;
+margin-bottom: 20px;
+}
+.chalange1 .chalange .chalenge-foot-2 p{
+    font-size: 14px;
+font-weight: 400;
+color: rgba(14, 14, 14, 0.6);
+}
+.chalange1{
+    margin-bottom: 80px;
+}
+/* satelite */
+.satelite1 #satelite-dad{
+    display: flex;
+    gap: 32px;
+    background-color: rgb(255, 252, 252);
+    padding: 48px;
+}
+.satelite2 #satelite-dad{
+    display: flex;
+    gap: 32px;
+    background-color: rgb(255, 252, 252);
+    padding: 48px;
+}
+.satelite1 #satelite-dad .satelite-content-dad .satelite-heading{
+    margin-bottom: 24px;
+    border: 1px solid rgb(255, 252, 252);
+    height: 25px;
+    font-size: 15px;
+font-weight: 700;
+}
+.satelite2 #satelite-dad .satelite-content-dad .satelite-heading{
+    margin-bottom: 24px;
+    border: 1px solid rgb(255, 252, 252);
+    height: 25px;
+    font-size: 15px;
+font-weight: 700;
+}
+.satelite1 #satelite-dad .satelite-content-dad .satelite-ligo img{
+    width: 92px;
+height: 29px;
+}
+.satelite2 #satelite-dad .satelite-content-dad .satelite-ligo img{
+    width: 92px;
+height: 29px;
+}
+.satelite1 #satelite-dad .satelite-content-dad .satelite-ligo{
+    border: 1px solid rgb(255, 252, 252);
+    height: 10px;
+    margin-bottom: 29px;
+}
+.satelite2 #satelite-dad .satelite-content-dad .satelite-ligo{
+    border: 1px solid rgb(255, 252, 252);
+    height: 10px;
+    margin-bottom: 29px;
+}
+.satelite-time-peradox{
+    display: flex;
+    gap: 12px;
+}
+.satelite-time-peradox .satelite-time1 p{
+    font-size: 16px;
+font-weight: 400;
+}
+.satelite-time-peradox .satelite-time2 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.satelite-time-peradox{
+    border: 1px solid rgb(255, 252, 252);
+    height: 15px;
+    margin-bottom: 28px;
+}
+.satelite-btn button{
+    width: 120px;
+height: 40px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: white;
+margin-top: 32px;
+border: none;
+}
+.satelite-img1 img{
+    width: 380px;
+height: 280px;
+border-radius: 24px;
+}
+#news{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.satelite2{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-sizing: border-box;
+border-radius: 16px;
+margin-bottom: 80px;
+overflow: hidden
+}
+.satelite1{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+margin-bottom: 24px;
+overflow: hidden
 }
